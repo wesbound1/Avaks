@@ -1,0 +1,12 @@
+body {
+	background: url(../img/paperbg.jpg);
+	height: 2000px;
+}
+.ctnered{
+	position: center;
+
+}
+.container {
+	display: flex;
+	background-color:#d2d2d2;
+}
