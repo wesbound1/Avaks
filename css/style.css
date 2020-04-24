@@ -1,12 +1,111 @@
+@import url(../img/paperbg.jpg);
+
 body {
-	background: url(../img/paperbg.jpg);
-	height: 2000px;
+	background-color: #f2f2f2;
+	font-family: "lato";
+	font-weight: 200;
+	font-size: 14px;
+	color: #555;
+
+	-webkit-font-smoothing: antialiased;
+	-webkit-overflow-scrolling: touch;
+	
+	
 }
-.ctnered{
-	position: center;
+.nav-link {
+	
+}
+h1, h2, h3 ,h4, h5, h6 {
+	font-family: "Ralway";
+	font-weight: 300;
+/	color: #333 ;
+}
+p {
+	line-height: 28px;
+	margin-bottom: 25px;
+}
+.centered { 
+	text-align: center;
+	margin-bottom: 25px;
+}	
+a {
+	
+}
+a:hover, a:focus {
+	color: #7b7b7b;
+	text-decoration: none;
+	outline: 0;
+}
+hr {
+	display: block;
+	height: 1px;
+	border: 0 ;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+}
+.navbar {
+	font-weight: 700;
+	font-size: 20px;
+	color: #fff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
 
 }
-.container {
-	display: flex;
-	background-color:#d2d2d2;
+.navbar-light {
+
+	background: #2d2d2d;
+	border-color: #2d2d2d;
 }
+#headerwrap {
+	background:url(../img/grayStrat.jpg) no-repeat center top; 
+	margin-top: -10px;
+	padding-top: 10px;
+	
+	text-align: center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 500px;
+	width: 100%;
+	background-size: 100%;
+
+	-webkit-background-size: cover;  
+}
+#headerwrap h1 {
+	margin-top: 95px;
+	font-family: 'Raleway', sans-serif;
+	color: #D7C2A3;
+	font-size: 40px;
+	font-weight: 400;
+	letter-spacing: 3px;
+	text-shadow: 1px 0 0 #472700;
+
+}
+#headerwrap h2 {
+	color: #D7C2A3;
+	font-family: 'Lato', sans-serif;
+	font-size: 30ps;
+	font-weight: 300;
+	letter-spacing: 2px;
+	text-transform: lowercase;
+	text-shadow: 1px 0 0 #472700;
+
+}
+#picwrap h3 {
+	color: white;
+	font-size: 20ps;
+	letter-spacing: 2px;
+	
+	text-shadow: 1px 0 0 #4783B7;
+
+}
+#picwrap {
+	background-color:#2B3859;
+	miin-height: 500px; 
+	padding-top: -5px;
+}
+#pic {
+	width: 100%;
+}
+
