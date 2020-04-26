@@ -1,4 +1,3 @@
-@import url(../img/paperbg.jpg);
 
 body {
 	background-color: #f2f2f2;
@@ -7,14 +6,8 @@ body {
 	font-size: 14px;
 	color: #555;
 
-	-webkit-font-smoothing: antialiased;
-	-webkit-overflow-scrolling: touch;
-	
-	
+	-webkit-font-smoothing: antialiased;	
 }
-
-
-
 
 h1, h2, h3 ,h4, h5, h6 {
 	font-family: "Ralway";
@@ -32,7 +25,7 @@ p {
 	margin-bottom: 5px;
 }	
 a {
-	color: #f85c37; 
+	color: #D7C2A3; 
 }
 a:hover, a:focus {
 	color: #7b7b7b;
