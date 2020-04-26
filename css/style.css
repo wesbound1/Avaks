@@ -19,7 +19,7 @@ body {
 h1, h2, h3 ,h4, h5, h6 {
 	font-family: "Ralway";
 	font-weight: 300;
-/	color: #333 ;
+	color: #333 ;
 }
 p {
 	line-height: 28px;
@@ -32,7 +32,7 @@ p {
 	margin-bottom: 5px;
 }	
 a {
-	
+	color: #f85c37; 
 }
 a:hover, a:focus {
 	color: #7b7b7b;
