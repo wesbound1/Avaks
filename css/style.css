@@ -2,7 +2,7 @@ html,body,header, #intro {
 	height: 100%;
 }
 #intro {
-	background: url(../img/bg4.jpg) no-repeat center center fixed;
+	background: url(../img/bg4.jpg)  fixed;
 	-webkit-background-size:cove;
 	background-size: cover;
 }
