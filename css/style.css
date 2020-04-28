@@ -3,7 +3,7 @@ html,body,header, #intro {
 }
 #intro {
 	background: url(../img/bg4.jpg)  fixed;
-	-webkit-background-size:cove;
+	-webkit-background-size:cover;
 	background-size: cover;
 }
 .top-nav-collapse{
